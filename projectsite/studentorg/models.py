@@ -29,7 +29,7 @@ class Organization(BaseModel):
     def _str_(self):
         return self.self_name
     
-class Student(BaseModel ):
+class Student(BaseModel):
     student_id =models.CharField(max_length=15) 
     lastname =models.CharField(max_length=25) 
     firstname =models.CharField(max_length=25)
